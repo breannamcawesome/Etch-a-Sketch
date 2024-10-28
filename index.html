@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <h1>Etch a Sketch</h1>
+    </div>
+    <div>
+        <div id="wrapper">
+            <div id="color-select">
+                <label for="color-selector">Color Select:</label>
+                <input type="color" name="color-selector" id="color-selector" value="#000000">
+            </div>
+            <div id="new-grid-entry">   
+                <input type="button"  name="resize-button" id="resize-button" value="New Grid Size" min="10" max="64">   
+            </div>
+        </div>
+    </div>
+    <div id="container" class="container">
+        
+    </div>
+    <div id="footer">
+         <a href="https://github.com/breannamcawesome">Created by breannamcawesome at GitHub</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
